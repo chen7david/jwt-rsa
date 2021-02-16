@@ -1,5 +1,5 @@
 # jwt-rsa
-wrapper that combines jsonwetokens and node-rsa in one simple interface, 
+wrapper that combines json-web-tokens and node-rsa in one simple interface, 
 
 
 #### Getting Started
