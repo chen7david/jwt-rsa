@@ -56,4 +56,9 @@ class Token {
     
 }
 
-module.exports = Token
+const koatoken = (name = 'jwtrsa', filepath = './', options = {}) => async (ctx, next) => {
+    ctx[name] = new Token(filepath, options)
+    await next()
+}
+
+module.exports = { Token, koatoken }
