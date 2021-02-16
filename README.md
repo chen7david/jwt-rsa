@@ -25,3 +25,18 @@ const AccessToken = new Token(/* dir-path-of-rsa-keys*/, {
     /* add more options here ... */
 })
 ```
+
+#### API
+```js
+const Token = require('jwt-rsa')
+const AccessToken = new Token(/* dir-path-of-rsa-keys*/, {
+    algorithm: 'RS256', 
+    expiresIn: '30m',
+})
+
+const token = AccessToken.sing({/* some-object */})
+const object = AccessToken.sing(token)
+const privateKey = AccessToken.prikey()
+const publicKey = AccessToken.pubkey()
+AccessToken.renewkeys()
+```
