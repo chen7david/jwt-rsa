@@ -1,6 +1,6 @@
 {
   "name": "jwt-rsa",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "simple wrapper that combines jsonwetokens and node-rsa in an easy to use interface.",
   "main": "index.js",
   "scripts": {
