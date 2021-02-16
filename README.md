@@ -15,8 +15,8 @@ const AccessToken = new Token(/* dir-path-of-rsa-keys*/, {
 ```
 
 #### Options
-Th edfault options:
+The default options paramaters are:
 - algorithm: 'RS256'
 - expiresIn: '30m'
 
-you can override any of these default setting by passing your own into your options object at instantiation. 
+you can override any of these by passing in your own options' object at instantiation. 
